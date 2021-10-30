@@ -90,11 +90,37 @@ body {
 }
 .hero-text {
   max-width: 565px;
+  background-color: #fff;
+  padding: 46px 10px 46px 18px;
 }
 .hero-title {
   font-family: 'PlayfairDisplay-Regular';
   font-weight: 400;
   font-size: 72px;
+  line-height: 96px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.hero-description{
+  max-width: 528px;
+  font-size: 22px;
+  line-height: 150%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.hero-link {
+  font-family: 'PlayfairDisplay-Bold';
+  font-size: 26px;
+  line-height: 35px;
+  text-decoration: none;
+  padding: 20px 64px;
+  background-color: #977464;
+  color: #fff;
+  box-shadow: 0px 4px 15px rgba(113, 94, 85, 0.35);
+  border-radius: 4px;
+  display: block;
+  max-width: 373px;
+;
 }
 .hero-item {
   width: 675px;

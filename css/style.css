@@ -126,7 +126,47 @@ body {
   width: 675px;
   height: 737px;
 }
+
+/* section soap */
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 }
+.card {
+  max-width: 270px;
+  text-align: center;
+}
+.card-image {
+  max-width: 270px;
+  height: 310px;
+}
+.card-image-1 {
+  /* max-width: 270px;
+  max-height: 310px; */
+  background: url(../img/cards/card-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-image-2 {
+  background: url(../img/cards/card-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-image-3 {
+  background: url(../img/cards/card-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-image-4 {
+  background: url(../img/cards/card-4.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .card-picture {
+  width: 100%;
+  height: 100%;
+} */

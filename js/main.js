@@ -2,6 +2,7 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
   slidesPerView: 4,
+  spaceBetween: 30,
   speed: 500,
   grabCursor: true,
 
@@ -11,3 +12,5 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+

@@ -132,9 +132,16 @@ body {
   width: 100%;
   height: 100%;
 }
+.slider {
+  margin-bottom: 70px;
+}
 .card {
   max-width: 270px;
   text-align: center;
+  background-color:#fff;
+  border: 1px solid #CBB1A5;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .card-image {
   max-width: 270px;
@@ -170,3 +177,70 @@ body {
   width: 100%;
   height: 100%;
 } */
+.card-title {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.card-price {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+.button-card {
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 9px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 19px;
+  background-color: #977464;
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+}
+.soap-top, .bouquet-top {
+  position: relative;
+  padding-bottom: 23px;
+  border-bottom: 1px solid rgba(100, 67, 52, 0.3);
+  margin-bottom: 46px;
+}
+.soap-title, .bouquet-title {
+  font-family: 'PlayfairDisplay-Regular';
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 56px;
+  color: #715E55;
+  margin: 0;
+}
+.swiper-button-prev {
+  left: 1070px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #715E55;
+}
+.soap-button, .bouquet-button {
+  font-family: 'PlayfairDisplay-Bold';
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #715E55;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  max-width: 229px;
+}

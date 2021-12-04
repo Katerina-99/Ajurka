@@ -1,234 +1,297 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <title>Мыло Ажурка - интернет магазин</title>
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="navbar">
-        <div class="navbar-left">
-          <a href="index.html" class="logo">
-            <img class="logo-image" src="img/logo.svg" alt="logo: Ажурка">
-          </a>
-          <nav class="navbar-nav">
-            <ul class="navbar-menu">
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">О нас</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Каталог</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Акции</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#" class="navbar-link">Доставка и оплата</a>
-              </li>
-            </ul>
-          </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Мыло Ажурка - интернет магазин</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-left">
+            <a href="index.html" class="logo">
+              <img class="logo-image" src="img/logo.svg" alt="logo: Ажурка" />
+            </a>
+            <nav class="navbar-nav">
+              <ul class="navbar-menu">
+                <li class="navbar-item">
+                  <a href="#" class="navbar-link">О нас</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="navbar-link">Каталог</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="navbar-link">Акции</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" class="navbar-link">Доставка и оплата</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="navbar-icons">
+            <a href="#" class="icon-link"
+              ><img
+                class="icon-image"
+                src="img/phone.svg"
+                alt="icon: Phone"
+                class="navbar-icon"
+            /></a>
+            <a href="#" class="icon-link"
+              ><img
+                class="icon-image"
+                src="img/Watsapp.svg"
+                alt="icon: WhatsApp"
+                class="navbar-icon"
+            /></a>
+            <a href="#" class="icon-link"
+              ><img
+                class="icon-image"
+                src="img/Cart.svg"
+                alt="icon: Cart"
+                class="navbar-icon"
+            /></a>
+          </div>
         </div>
-        <div class="navbar-icons">
-          <a href="#" class="icon-link"><img class="icon-image" src="img/phone.svg" alt="icon: Phone" class="navbar-icon"></a>
-          <a href="#" class="icon-link"><img class="icon-image" src="img/Watsapp.svg" alt="icon: WhatsApp"
-              class="navbar-icon"></a>
-          <a href="#" class="icon-link"><img class="icon-image" src="img/Cart.svg" alt="icon: Cart" class="navbar-icon"></a>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-info">
+        <div class="hero-text">
+          <h1 class="hero-title">Подарочное мыло</h1>
+          <p class="hero-description">
+            Мыло ручной работы, изготовленное из натуральных ингредиентов – это
+            великолепный и оригинальный подарок, получив который вряд ли кто-то
+            сможет остаться равнодушным.
+          </p>
+          <a href="#" class="button hero-link">Перейти в каталог</a>
+        </div>
+        <div class="hero-image">
+          <img class="hero-item" src="img/hero.png" alt="image: collection" />
         </div>
       </div>
-    </div>
-  </header>
-  <section class="hero">
-   <div class="hero-info">
-      <div class="hero-text">
-        <h1 class="hero-title">Подарочное мыло</h1>
-        <p class="hero-description">Мыло ручной работы, изготовленное из натуральных ингредиентов – это великолепный и оригинальный
-          подарок, получив который вряд ли кто-то сможет остаться равнодушным.</p>
-        <a href="#" class="hero-link">Перейти в каталог</a>
-      </div>
-      <div class="hero-image">
-        <img class="hero-item" src="img/hero.png" alt="image: collection">
-      </div>
-   </div>
-  </section>
-  <section class="soap">
-    <div class="container">
-      <div class="soap-wrapper">
-        
-       <div class="slider">
-          <!-- Slider main container -->
-          <div class="swiper soap-slider">
-            <div class="soap-top">
-              <h2 class="soap-title">Мыло с нуля</h2>
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <div class="card">
-                  <div class="card-image card-image-1">
-                    <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+    </section>
+    <section class="soap">
+      <div class="container">
+        <div class="soap-wrapper">
+          <div class="slider">
+            <!-- Slider main container -->
+            <div class="swiper soap-slider">
+              <div class="soap-top">
+                <h2 class="soap-title">Мыло с нуля</h2>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-1">
+                      <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+                    </div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
                   </div>
-                  <h3 class="card-title">название товара</h3>
-                  <span class="card-price">1500 ₽</span>
-                  <button class="button-card">в корзину</button>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-2">
+                      <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+                    </div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-3">
+                      <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+                    </div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-4">
+                      <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+                    </div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="card">
-                <div class="card-image card-image-2">
-                  <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+            </div>
+            <!-- /.swiper -->
+          </div>
+          <a href="#" class="soap-button">Показать все</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="instagramm">
+      <div class="container">
+        <div class="instagramm-wrapper">
+          <h2 class="instagramm-title">Мы в instagramm</h2>
+          <svg
+            class="instagramm-arrow"
+            width="112"
+            height="24"
+            viewBox="0 0 112 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M111.061 13.0607C111.646 12.4749 111.646 11.5251 111.061 10.9393L101.515 1.3934C100.929 0.807611 99.9792 0.807611 99.3934 1.3934C98.8076 1.97919 98.8076 2.92893 99.3934 3.51472L107.879 12L99.3934 20.4853C98.8076 21.0711 98.8076 22.0208 99.3934 22.6066C99.9792 23.1924 100.929 23.1924 101.515 22.6066L111.061 13.0607ZM0 13.5H110V10.5H0V13.5Z"
+              fill="#715E55"
+            />
+          </svg>
+          <a href="#" class="instagramm-link">
+            <img
+              src="img/instagramm/instagramm-icon.svg"
+              alt="instagramm icon"
+            />
+            <span class="instagramm-text">@miloajurka</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bouquet">
+      <div class="container">
+        <div class="bouquet-wrapper">
+          <div class="slider">
+            <div class="swiper bouquet-slider">
+              <div class="bouquet-top">
+                <h2 class="bouquet-title">Букеты</h2>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-5"></div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
                 </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card">
-                <div class="card-image card-image-3">
-                  <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-6"></div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
                 </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="card">
-                <div class="card-image card-image-4">
-                  <!-- <img src="img/cards/card-1.jpg" alt="Card Image" class="card-picture"> -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-7"></div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
                 </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-image card-image-8"></div>
+                    <h3 class="card-title">название товара</h3>
+                    <span class="card-price">1500 ₽</span>
+                    <button class="button button-card">в корзину</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!-- /.swiper -->
-       </div>
-        <a href="#" class="soap-button">Показать все</a>
+          <a href="#" class="bouquet-button">Показать все</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="instagramm">
-    <div class="container">
-      <div class="instagramm-wrapper">
-        <h2 class="instagramm-title">Мы в instagramm</h2>
-        <svg class="instagramm-arrow" width="112" height="24" viewBox="0 0 112 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M111.061 13.0607C111.646 12.4749 111.646 11.5251 111.061 10.9393L101.515 1.3934C100.929 0.807611 99.9792 0.807611 99.3934 1.3934C98.8076 1.97919 98.8076 2.92893 99.3934 3.51472L107.879 12L99.3934 20.4853C98.8076 21.0711 98.8076 22.0208 99.3934 22.6066C99.9792 23.1924 100.929 23.1924 101.515 22.6066L111.061 13.0607ZM0 13.5H110V10.5H0V13.5Z"
-            fill="#715E55" />
-        </svg>
-        <a href="#" class="instagramm-link">
-          <img src="img/instagramm/instagramm-icon.svg" alt="instagramm icon">
-          <span class="instagramm-text">@miloajurka</span>
-        </a>
+    <section class="cta">
+      <div class="cta-wrapper">
+        <h2 class="cta-title">связаться с нами</h2>
+        <ul class="cta-list">
+          <li class="cta-list__item">
+            <a href="" class="button cta-list__link">
+              <span class="cta-list__text-top">Wats App</span>
+              <span class="cta-list__text-bottom">Позвонить или написать</span>
+            </a>
+          </li>
+          <li class="cta-list__item">
+            <a href="" class="button cta-list__link">
+              <span class="cta-list__text-top">Instagramm</span>
+              <span class="cta-list__text-bottom">@miloajurka</span>
+            </a>
+          </li>
+          <li class="cta-list__item">
+            <a href="" class="button cta-list__link">
+              <span class="cta-list__text-top">VK</span>
+              <span class="cta-list__text-bottom">vk.com/miloajurka</span>
+            </a>
+          </li>
+          <li class="cta-list__item">
+            <a href="" class="button cta-list__link">
+              <span class="cta-list__text-top">Telegram</span>
+              <span class="cta-list__text-bottom">https://t.me/MiloAjurka</span>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </section>
-
-<section class="bouquet">
-  <div class="container">
-    <div class="bouquet-wrapper">
-      <div class="slider">
-        <div class="swiper bouquet-slider">
-          <div class="bouquet-top">
-            <h2 class="bouquet-title">Букеты</h2>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="navbar-footer">
+          <div class="navbar-footer-left">
+            <a href="index.html" class="logo">
+              <img class="logo-image" src="img/logo.svg" alt="logo: Ажурка" />
+            </a>
+            <p>Интернет магазин мыла ручной работы.</p>
+            <p>В наличии и под заказ.</p>
           </div>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image card-image-5">
-                </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image card-image-6">
-                </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image card-image-7">
-                </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="card">
-                <div class="card-image card-image-8">
-                </div>
-                <h3 class="card-title">название товара</h3>
-                <span class="card-price">1500 ₽</span>
-                <button class="button-card">в корзину</button>
-              </div>
-            </div>
+          <ul class="navbar-footer-menu">
+            <li class="navbar-footer-item">
+              <a href="#" class="navbar-footer-link">Каталог</a>
+            </li>
+            <li class="navbar-footer-item">
+              <a href="#" class="navbar-footer-link">Контакты</a>
+            </li>
+          </ul>
+          <div class="navbar-footer-icons">
+            <a href="#">
+              <img src="img/footer/instagram.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="img/footer/vk.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="img/footer/telegram.svg" alt="" />
+            </a>
+            <a href="#">
+              <img src="img/footer/whatsapp.svg" alt="" />
+            </a>
           </div>
         </div>
       </div>
-      <a href="#" class="bouquet-button">Показать все</a>
-    </div>
-  </div>
-</section>
-
-<section class="cta">
-  <div class="cta-wrapper">
-    <h2 class="cta-title">связаться с нами</h2>
-    <ul class="cta-list">
-      <li class="cta-list__item">
-        <a href="" class="cta-list__link">
-          <span class="cta-list__text-top">Wats App</span>
-          <span class="cta-list__text-bottom">Позвонить или написать</span>
-        </a>
-      </li>
-      <li class="cta-list__item">
-        <a href="" class="cta-list__link">
-          <span class="cta-list__text-top">Instagramm</span>
-          <span class="cta-list__text-bottom">@miloajurka</span>
-        </a>
-      </li>
-      <li class="cta-list__item">
-        <a href="" class="cta-list__link">
-          <span class="cta-list__text-top">VK</span>
-          <span class="cta-list__text-bottom">vk.com/miloajurka</span>
-        </a>
-      </li>
-      <li class="cta-list__item">
-        <a href="" class="cta-list__link">
-          <span class="cta-list__text-top">Telegram</span>
-          <span class="cta-list__text-bottom">https://t.me/MiloAjurka</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</section>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
+    </footer>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
-
